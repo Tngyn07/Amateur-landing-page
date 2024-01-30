@@ -1,0 +1,38 @@
+
+/* * {
+    border: solid red;
+} */
+
+body {
+    font-family: 'roboto';
+    display: flex;
+    flex-direction: column;
+}
+
+.header, 
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    padding: 16px;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    gap: 16px
+}
+
+.header-logo {
+    justify-self: flex-start;
+}
+
