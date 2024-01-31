@@ -147,23 +147,28 @@ a {
 
 .body-4-meat {
     display: flex;
-    width: 800px;
+    justify-content: space-evenly;
+    gap: 16px;
+    width: 850px;
     background-color: #3882f6;
     color: white;
+    border-radius: 10px;
+    padding:52px;
 }
 
-.body-4-meat div {
+.body-4-meat .subody-4 {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
 
 .body-4-meat button {
-    border-radius: 4px;
-    height: 64px;
-    width: 248px;
+    border-radius: 10px;
+    height: 45px;
+    width: 150px;
     border: none;
     background-color: #3882f6;
     color: white;
     border: solid white;
+    align-self: center;
+    /* margin-right: 112px; */
 }
