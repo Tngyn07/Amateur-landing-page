@@ -1,1 +1,1 @@
-# Amateur-landing-page
+This is a mini project intended to showcase the progression of my HTML/CSS skills with manipulation of Flexbox. It's a simple website about dogs and again, it is menat to showcase the progression of my HTML/CSS so it's not a perfect project by any means.

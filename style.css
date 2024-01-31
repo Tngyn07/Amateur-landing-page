@@ -1,7 +1,18 @@
 
 * {
-    /* border: solid red; */
+    /* border: solid red */
 }
+
+img {
+    height: 200px;
+    width: 200px;
+    object-fit: fill;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}  
 
 body {
     font-family: 'roboto';
@@ -70,7 +81,7 @@ a {
     display: flex;
     background-color: #1f2937;
     color: white;
-    padding: 64px;
+    padding: 128px;
     justify-content: center;
 }
 
@@ -87,7 +98,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    margin-bottom: 64px;
+    margin-bottom: 92px;
 }
 
 .body-2-meat {
@@ -107,6 +118,11 @@ a {
 
 }
 
+.dog-title {
+    font-weight: 600px;
+    font-size: 20px;
+}
+
 .body-3 {
     display: flex;
     justify-content: center;
@@ -122,8 +138,32 @@ a {
     width: 800px;
 }
 
-img {
-    height: 200px;
-    width: 200px;
-    object-fit: fill;
+.body-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px;
+}
+
+.body-4-meat {
+    display: flex;
+    width: 800px;
+    background-color: #3882f6;
+    color: white;
+}
+
+.body-4-meat div {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.body-4-meat button {
+    border-radius: 4px;
+    height: 64px;
+    width: 248px;
+    border: none;
+    background-color: #3882f6;
+    color: white;
+    border: solid white;
 }
