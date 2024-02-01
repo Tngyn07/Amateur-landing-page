@@ -37,9 +37,12 @@ body {
     justify-content: center;
 }
 
-/* .header-logo {
-    justify-content: flex-start;
-} */
+.image-placeholder img {
+    height: 219px;
+    width: 450px;
+    object-fit: fill;
+}
+
 
 .header, 
 .footer {
@@ -132,7 +135,6 @@ a {
     display: flex;
     justify-content: center;
     background-color: #e5e7eb;
-    /* font-style: italic; */
     font-size: 32px;
     font-weight: lighter;
     color: #1f2937;
