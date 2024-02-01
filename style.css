@@ -1,6 +1,6 @@
 
 * {
-    border: solid red
+    /* border: solid red */
 }
 
 img {
@@ -59,12 +59,17 @@ body {
 ul {
     display: flex;
     flex: 1;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 0;
     padding: 0;
     list-style-type: none;
-    gap: 16px; 
+    /* gap: 16px;  */
     /* width: 400px;  */
+}
+
+.header .right-link {
+    justify-content: flex-start;
+    gap: 16px;
 }
 
 a {
